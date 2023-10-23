@@ -674,8 +674,8 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  margin-left: 98px;
-  margin-top: 5px;
+  margin-left: -28px;
+  margin-top: -165px;
   border-radius: 50%;
   background-color: black;
 }
