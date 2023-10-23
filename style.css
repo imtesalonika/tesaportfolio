@@ -217,14 +217,6 @@ body {
     width: 200px;
   }
 
-  .education {
-    width: 400px;
-  }
-  
-  .skills {
-    width:400px;
-  }
-
   .bg-foto-ungu {
     background-color: #a4a5ff;
     width: 300px;
@@ -463,11 +455,15 @@ body {
 }
 
 .education {
-  width: 500px;
+  max-width: 500px;
+  width: auto;
+  min-width: 400;
 }
 
 .skills {
-  width: 500px;
+  max-width: 500px;
+  width: auto;
+  min-width: 400;
 }
 
 /* ukuran-large */
