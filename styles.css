@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Homemade+Apple&family=Pinyon+Script&display=swap");
+
+.container1 {
+  /* background: red; */
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  /* z-index: 1; */
+  /* padding: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-color: #cfcfcf;
+  border-style: solid;
+  z-index: 2;
+  border-top-width: 0;
+  border-right-width: 1px;
+  border-left-width: 0;
+  border-bottom-width: 0;
+}
+
+.container2 {
+  width: 80%;
+  /* height: 200vh; */
+  right: 0px;
+  position: absolute;
+  background-color: white;
+}
+
+#home {
+  height: 100vh;
+  background-color: #effbf8;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.sub-home {
+  margin-left: 50px;
+  margin-right: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about {
+  margin: 20px;
+  height: 100vh;
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.judul-about {
+  font-size: 30px;
+}
+
+body {
+  margin: 0;
+}
+
+.tempat-profil {
+  background-color: #a4a5ff;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+#foto-profil {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.tempat-tombol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 70px;
+  width: 200px;
+}
+
+.tombol {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.tombol:hover {
+  color: black;
+  background-color: #effbf8;
+  border-radius: 20px;
+}
+
+.tempat-sosmed {
+  margin-top: 70px;
+  display: flex;
+  gap: 10px; /*Membuat jarak antar gambar icon sosmed*/
+}
+
+.tempat-sosmed i {
+  font-size: 30px;
+  background-color: #effbf8;
+  border-radius: 50%;
+  margin: 5px; /*mendorong dari pusat tengah keluar*/
+  color: #130f49;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+.footer1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.nama {
+  color: #7091f5;
+}
+
+.welcome {
+  font-size: 65px;
+}
+
+.interest {
+  font-size: 30px;
+}
+
+.tempat-ttd {
+  /* display: flex;
+    justify-content: center; */
+  font-family: "Pinyon Script", cursive;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.kotak {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-right: 10px; /* Untuk memberikan jarak antara kotak secara horizontal */
+  margin-bottom: 10px; /* Untuk memberikan jarak antara kotak secara vertikal */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left; /* Mengatur kotak berdampingan */
+  color: #130f49;
+  border: 2px solid black;
+  font-size: 25px;
+  transition: ease-in 0.3s; /*agar ketrika bagian kotak di arahakan warna yang muncul smooth*/
+}
+
+.kotak:hover {
+  background-color: #cecffff3;
+}
+
+.sub-tempat-kotak {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  flex-wrap: wrap;
+  /* background-color: #130F49; */
+  gap: 25px;
+}
+
+.tempat-kotak {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* background-color: aqua; */
+  margin-top: 50px;
+}
+
+.contactme {
+  margin-top: 30px;
+  background-color: #a4a5ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.sub-contact {
+  margin: 20px;
+}
+
+#judul-kontak {
+  padding-top: 20px;
+}
+
+.text-project {
+  font-size: 20px;
+}
+
+.show-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 300px;
+  border-radius: 20px;
+  border-style: solid;
+  border-radius: 20px;
+  height: 168.75px;
+  background-color: white;
+}
+
+.img-box {
+  height: 168.75px;
+  border-radius: 17px;
+}
+
+.box-kotak {
+  height: 168.75px;
+}
+
+#project {
+  margin-top: 50px;
+  padding: 20px;
+  height: 100vh;
+  background-color: #effbf8;
+}
+
+.link-box {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+#contact {
+  height: 100vh;
+}
+
+.my-cv {
+  background-color: #a4a5ff;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  width: 250px;
+  margin: auto;
+  margin-top: 30px;
+  height: 100px;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bx-download {
+  font-size: 35px;
+}
+
+.tempat-garis {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.garis-sama {
+  height: 50px;
+  width: 2px;
+  background-color: #130f49;
+  margin-top: 10px;
+}
+
+.garis-panjang {
+  height: 60px;
+  width: 2px;
+  background-color: #130f49;
+}
+
+.garis-sama-bawah {
+  height: 50px;
+  width: 2px;
+  background-color: #130f49;
+}
+.div-foto {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 50px;
+}
+
+.kotak-hitam {
+  width: 550px;
+  height: 720px;
+  position: absolute;
+  background-color: transparent;
+  border-color: black;
+  border-style: solid;
+}
+
+.bg-foto-ungu {
+  background-color: #a4a5ff;
+  width: 700px;
+  height: 500px;
+}
+
+#foto-article {
+  position: absolute;
+  width: 500px;
+  z-index: 3;
+}
+
