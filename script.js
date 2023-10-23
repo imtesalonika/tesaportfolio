@@ -2,7 +2,6 @@
 
   const textElement = document.querySelector(".greetings");
   const text = textElement.innerText;
-  console.log(text);
   textElement.innerText = "";
 
   let i = 0;
